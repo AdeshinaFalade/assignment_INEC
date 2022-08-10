@@ -7,7 +7,7 @@ namespace assignment_INEC
         static void Main(string[] args)
         {
             string[] voters = { "Mary", "Sean", "James", "Mary", "Jean", "Jean", "Mary", "Olu", "Seun", "Bose", "James", "Mary" };
-            HashSet<string> v = voters.ToHashSet();
+
             Dictionary<string, int> dic = new Dictionary<string, int>();
             foreach (var item in voters)
             {
